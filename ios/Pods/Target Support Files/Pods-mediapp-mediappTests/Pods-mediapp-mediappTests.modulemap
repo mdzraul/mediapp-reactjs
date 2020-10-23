@@ -1,0 +1,6 @@
+module Pods_mediapp_mediappTests {
+  umbrella header "Pods-mediapp-mediappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

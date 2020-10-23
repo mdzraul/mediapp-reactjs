@@ -1,0 +1,301 @@
+
+# Creado por https://www.toptal.com/developers/gitignore/api/reactnative
+# Edite en https://www.toptal.com/developers/gitignore?templates=reactnative
+
+### ReactNative ###
+# React Native Stack Base
+
+.expo
+__generado__
+
+### Pila ReactNative.Android ###
+# Archivos de aplicación creados
+* .apk
+* .aar
+* .ap_
+* .aab
+
+# Archivos para ART / Dalvik VM
+* .dex
+
+# Archivos de clase Java
+*.clase
+
+# Archivos generados
+compartimiento/
+gen /
+fuera/
+# Descomente la siguiente línea en caso de que lo necesite y no tenga los archivos de tipo de compilación de lanzamiento en su aplicación
+# lanzamiento/
+
+# Archivos Gradle
+.gradle /
+construir/
+
+# Archivo de configuración local (ruta sdk, etc.)
+propiedades.locales
+
+# Carpeta Proguard generada por Eclipse
+proguard /
+
+# Archivos de registro
+*.Iniciar sesión
+
+# Archivos temporales del editor de navegación de Android Studio
+.navegación/
+
+# Carpeta de capturas de Android Studio
+capturas /
+
+# IntelliJ
+* .iml
+.idea / workspace.xml
+.idea / tasks.xml
+.idea / gradle.xml
+.idea / assetWizardSettings.xml
+.idea / diccionarios
+.idea / bibliotecas
+# Android Studio 3 en archivo .gitignore.
+.idea / cachés
+.idea / modules.xml
+# Comente la siguiente línea si mantener la posición de los elementos en el Editor de navegación es relevante para usted
+.idea / navEditor.xml
+
+# Archivos de almacén de claves
+# Descomente las siguientes líneas si no desea verificar los archivos del almacén de claves en formato.
+# *. jks
+# *. almacén de claves
+
+# Carpeta de compilación nativa externa generada en Android Studio 2.2 y posterior
+.externalNativeBuild
+.cxx /
+
+# Servicios de Google (por ejemplo, API o Firebase)
+# google-services.json
+
+# Línea libre
+freeline.py
+Línea libre/
+freeline_project_description.json
+
+# carril rápido
+fastlane / report.xml
+fastlane / Preview.html
+Fastlane / capturas de pantalla
+fastlane / salida_prueba
+fastlane / readme.md
+
+# Control de versiones
+vcs.xml
+
+# pelusa
+pelusa / intermedios /
+pelusa / generado /
+pelusa / salidas /
+pelusa / tmp /
+# pelusa / informes /
+
+### ReactNative.Buck Stack ###
+buck-out /
+.buckconfig.local
+.buckd /
+.buckversion
+.fakebuckversion
+
+### Pila ReactNative.Gradle ###
+.gradle
+
+# Ignorar la configuración de la GUI de Gradle
+gradle-app.setting
+
+# Evite ignorar el archivo jar contenedor de Gradle (los archivos .jar generalmente se ignoran)
+! gradle-wrapper.jar
+
+# Caché de proyecto
+.gradletasknamecache
+
+# # Trabaje con https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle / wrapper / gradle-wrapper.properties
+
+### Pila ReactNative.Linux ###
+* ~
+
+# archivos temporales que se pueden crear si un proceso todavía tiene un identificador abierto de un archivo eliminado
+.fuse_hidden *
+
+# Preferencias del directorio de KDE
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+# Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se está accediendo
+.nfs *
+
+### Pila ReactNative.Node ###
+# Registros
+registros
+npm-debug.log *
+yarn-debug.log *
+yarn-error.log *
+lerna-debug.log *
+
+# Informes de diagnóstico (https://nodejs.org/api/report.html)
+informe. [0-9] *. [0-9] *. [0-9] *. [0-9] *. json
+
+# Datos en tiempo de ejecución
+pids
+* .pid
+*.semilla
+* .pid.lock
+
+# Directorio para librerías instrumentadas generadas por jscoverage / JSCover
+lib-cov
+
+# Directorio de cobertura utilizado por herramientas como estambul
+cobertura
+* .lcov
+
+# cobertura de prueba de Nueva York
+.nyc_output
+
+# Almacenamiento intermedio de Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.gruñido
+
+# Directorio de dependencias de Bower (https://bower.io/)
+bower_components
+
+# configuración de node-waf
+.lock-wscript
+
+# Complementos binarios compilados (https://nodejs.org/api/addons.html)
+construir / liberar
+
+# Directorios de dependencias
+node_modules /
+jspm_packages /
+
+# Archivos de declaración de TypeScript v1
+tipificaciones /
+
+# Caché de TypeScript
+* .tsbuildinfo
+
+# Directorio de caché npm opcional
+.npm
+
+# Caché eslint opcional
+.eslintcache
+
+# Caché de micropaquetes
+.rpt2_caché /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Historial de REPL opcional
+.node_repl_history
+
+# Salida de 'paquete npm'
+* .tgz
+
+# Archivo de integridad del hilo
+.yarn-integridad
+
+# archivo de variables de entorno dotenv
+.env
+.env.test
+.env * .local
+
+# caché de paquete de paquetes (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Salida de compilación de Next.js
+.siguiente
+
+# Nuxt.js compila / genera salida
+.nuxt
+dist
+
+# Archivos Gatsby
+.cache/
+# Comente en la línea pública si su proyecto usa Gatsby y no Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# salida de compilación de vuepress
+.vuepress / dist
+
+# Directorios sin servidor
+.servidor /
+
+# Caché de FuseBox
+.caja de fusibles/
+
+# Archivos locales de DynamoDB
+.dynamodb /
+
+# Archivo de puerto TernJS
+.puerto de popa
+
+# Almacena las versiones de VSCode utilizadas para probar las extensiones de VSCode
+.vscode-prueba
+
+### Pila ReactNative.Xcode ###
+# Xcode
+#
+# contribuyentes de gitignore: recuerde actualizar Global / Xcode.gitignore, Objective-C.gitignore y Swift.gitignore
+
+## Ajustes de usuario
+xcuserdata /
+
+## compatibilidad con Xcode 8 y versiones anteriores (no es necesario ignorar el inicio de Xcode 9)
+* .xcscmblueprint
+* .xccheckout
+
+## compatibilidad con Xcode 3 y versiones anteriores (no es necesario ignorar el inicio de Xcode 4)
+DerivedData /
+* .moved-side
+* .pbxuser
+! default.pbxuser
+* .mode1v3
+! default.mode1v3
+* .mode2v3
+! default.mode2v3
+* .perspectivev3
+! default.perspectivev3
+
+## Parche Gcc
+/*.gcno
+
+### Pila ReactNative.macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# El icono debe terminar con dos \ r
+Icono
+
+
+# Miniaturas
+._ *
+
+# Archivos que pueden aparecer en la raíz de un volumen
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Traspa
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios potencialmente creados en el recurso compartido AFP remoto
+.AppleDB
+.AppleDesktop
+Carpeta de basura de red
+Elementos temporales
+.apdisk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/reactnative
