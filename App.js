@@ -3,7 +3,7 @@
  import colors from './src/utils/colors'
  import {DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 // /// COMPONENTS
- import Auth from './src/components/acount/Auth'
+ import Auth from './src/screens/acount/Auth'
 
 /// THEME
 const theme = {
@@ -47,10 +47,15 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: colors.WHITE_COLOR,
-  },
+  // container: {
+  //   flex: 1,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   backgroundColor: colors.WHITE_COLOR,
+  // },
+    container: {
+     backgroundColor: colors.WHITE_COLOR,
+     height:'100%'
+   },
+
 });

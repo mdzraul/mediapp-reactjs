@@ -241,7 +241,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_fps_view.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/layout/fps_view.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/layout/fps_view.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -265,7 +265,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_redbox_view.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/layout/redbox_view.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/layout/redbox_view.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_design_bottom_sheet_dialog.xml.flat",
@@ -373,7 +373,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_out.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/anim/catalyst_push_up_out.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/anim/catalyst_push_up_out.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -401,7 +401,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_redbox_item_title.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/layout/redbox_item_title.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_mtrl_calendar_vertical.xml.flat",
@@ -585,7 +585,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_dev_loading_view.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/layout/dev_loading_view.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -785,7 +785,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_in.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/anim/catalyst_push_up_in.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/anim/catalyst_push_up_in.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -801,7 +801,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_down.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/anim/catalyst_slide_down.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/anim/catalyst_slide_down.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_test_toolbar_elevation.xml.flat",
@@ -901,7 +901,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_out.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/anim/catalyst_fade_out.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/anim/catalyst_fade_out.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/color_material_on_background_emphasis_medium.xml.flat",
@@ -1025,7 +1025,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/drawable_redbox_top_border_background.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/drawable/redbox_top_border_background.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/drawable/redbox_top_border_background.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -1305,7 +1305,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_up.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/anim/catalyst_slide_up.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/anim/catalyst_slide_up.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
@@ -1913,7 +1913,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_redbox_item_frame.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/layout/redbox_item_frame.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2133,7 +2133,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_in.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/anim/catalyst_fade_in.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/anim/catalyst_fade_in.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
@@ -2405,7 +2405,7 @@
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/xml_rn_dev_preferences.xml.flat",
-        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/acc29953338c674eb4013a59323c0140/jetified-react-native-0.63.2/res/xml/rn_dev_preferences.xml"
+        "source": "/Users/raulmendez/.gradle/caches/transforms-2/files-2.1/52b97753563ea8f0f3c6c1cee3aebb9b/jetified-react-native-0.63.2/res/xml/rn_dev_preferences.xml"
     },
     {
         "merged": "/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",

@@ -189,6 +189,8 @@ dependencies {
 
     implementation project(':react-native-svg')
 
+    compile files('libs/bcprov-jdk15on-148.jar')
+
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'

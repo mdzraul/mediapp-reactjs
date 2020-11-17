@@ -1,4 +1,4 @@
-#Sat Oct 03 17:31:41 CDT 2020
+#Mon Nov 16 22:24:31 CST 2020
 base.0=/Users/raulmendez/Desktop/ReactNativeProyect/mediapp/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -20,6 +20,9 @@
 		4F52C6EEF7D45ABE5E6AFA1C /* libPods-mediapp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A138C9EC937290DD1586602 /* libPods-mediapp-tvOSTests.a */; };
 		5E7407E406B675EBAD56D152 /* libPods-mediapp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6199E1F3889294B9BC31C93 /* libPods-mediapp-tvOS.a */; };
 		689C64DC5E2A44D282F643E1 /* Poppins-Regular_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69FBD76DFECD4A149413865D /* Poppins-Regular_0.ttf */; };
+		70D262AF255720790028D484 /* RNEncryptAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D262AE255720790028D484 /* RNEncryptAES.m */; };
+		70D262B525577F760028D484 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D262B325577F750028D484 /* FBEncryptorAES.m */; };
+		70D262B625577F760028D484 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D262B425577F750028D484 /* NSData+Base64.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		86866D69ED9D49A086E0B09B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8DFEBECAA47CB8911859E /* Poppins-Medium.ttf */; };
 		AEE5C72722AA84CAD4F74825 /* libPods-mediapp-mediappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C84889EA6D2B7FD93C3AEF /* libPods-mediapp-mediappTests.a */; };
@@ -72,6 +75,12 @@
 		66A2BBD229184C6991DC4FBE /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		69FBD76DFECD4A149413865D /* Poppins-Regular_0.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular_0.ttf"; path = "../assets/fonts/Poppins-Regular_0.ttf"; sourceTree = "<group>"; };
 		6FCA1C017CAC9EBDF232E86D /* Pods-mediapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mediapp.release.xcconfig"; path = "Target Support Files/Pods-mediapp/Pods-mediapp.release.xcconfig"; sourceTree = "<group>"; };
+		70D262AD255720790028D484 /* RNEncryptAES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNEncryptAES.h; sourceTree = "<group>"; };
+		70D262AE255720790028D484 /* RNEncryptAES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEncryptAES.m; sourceTree = "<group>"; };
+		70D262B125577F6A0028D484 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
+		70D262B225577F750028D484 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		70D262B325577F750028D484 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
+		70D262B425577F750028D484 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		7DF44CCD0D114CA391E99E2F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mediapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A4052E9125B313347537230 /* Pods-mediapp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mediapp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-mediapp-tvOS/Pods-mediapp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +160,7 @@
 		13B07FAE1A68108700A75B9A /* mediapp */ = {
 			isa = PBXGroup;
 			children = (
+				70D262B025577F330028D484 /* FBEncrytor */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -158,6 +168,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				70D262AD255720790028D484 /* RNEncryptAES.h */,
+				70D262AE255720790028D484 /* RNEncryptAES.m */,
 			);
 			name = mediapp;
 			sourceTree = "<group>";
@@ -216,6 +228,17 @@
 				DF1295AEA6DF38085750E564 /* Pods-mediapp-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		70D262B025577F330028D484 /* FBEncrytor */ = {
+			isa = PBXGroup;
+			children = (
+				70D262B125577F6A0028D484 /* FBEncryptorAES.h */,
+				70D262B325577F750028D484 /* FBEncryptorAES.m */,
+				70D262B225577F750028D484 /* NSData+Base64.h */,
+				70D262B425577F750028D484 /* NSData+Base64.m */,
+			);
+			name = FBEncrytor;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -692,6 +715,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				70D262AF255720790028D484 /* RNEncryptAES.m in Sources */,
+				70D262B625577F760028D484 /* NSData+Base64.m in Sources */,
+				70D262B525577F760028D484 /* FBEncryptorAES.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
