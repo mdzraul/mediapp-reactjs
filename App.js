@@ -4,7 +4,7 @@
  import {DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 // /// COMPONENTS
  import Auth from './src/screens/acount/Auth'
-
+//probando git
 /// THEME
 const theme = {
   ...DefaultTheme,
