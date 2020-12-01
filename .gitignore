@@ -299,3 +299,4 @@ Elementos temporales
 .apdisk
 
 # Fin de https://www.toptal.com/developers/gitignore/api/reactnative
+node_modules

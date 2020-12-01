@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Platform,StyleSheet,View,Animated, Text,SafeAreaView,StatusBar,ImageBackground,Image,Dimensions,KeyboardAvoidingView,NativeModules} from 'react-native'
+import {Platform,StyleSheet,View,Animated, Text,SafeAreaView,StatusBar,ImageBackground,Image,Dimensions,KeyboardAvoidingView,NativeModules,Alert,Button} from 'react-native'
 import { HelperText, TextInput } from 'react-native-paper';
 import {
   widthPercentageToDP as wp,
@@ -19,7 +19,7 @@ import AES from '../../utils/AES'
 //import Diamond from '../../components/loadingDaimon';
 //import Quadrilateral from './Quadrilateral';
 //import Square from './Square';
-
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
 export default function LoginForm (props){
 
@@ -60,7 +60,7 @@ useEffect(() => {
 }, [user,password,uservalidEmail]);
 
 const onPress = () => {
-  alert("Hola")
+  Alert.alert("Hola ...")
   callwspostlogin(params)
 }
 
@@ -90,16 +90,21 @@ const callwspostlogin = (params) => {
 
   return (
     <>
-      {/* <KeyboardAvoidingView
+    {/* <KeyboardAvoidingView
         style={{flexstart: 1}}
         keyboardVerticalOffset={13} //Desplazamiento vertical del teclado
-        behavior={'position'}> */}
-      <KeyboardAvoidingView
+        behavior={'padding'}>*/ }
+    <KeyboardAvoidingView
         style={{flexstart: 1}}
         behavior="position"
-        keyboardVerticalOffset={50} //Modificacion extra
+        keyboardVerticalOffset={50} //Modificacion KeyBoardAvoiding
      // keyboardVerticalOffset={keyboardVerticalOffset}
       >
+
+
+
+
+        <View style={styles.container}>
           <TextInput style={styles.TextInput}
             label="Correo"
             onChangeText={(text) => {
@@ -126,23 +131,29 @@ const callwspostlogin = (params) => {
               setpassword(text);
             }}
           />
+          
           {password.length > 1 && password.length < 4 ? (
             <HelperText type="error">
               {' '}
               Contraseña tiene que tener 5 caracteres
             </HelperText>
           ) : null}
-
+            
+            {
+              
           <View style={styles.containerbutton}>
              <CustomButton text="Ingresar" bordered size="small" onPress={onPress} /> 
-          </View>
+            </View>  }
+             
+      
 
           {/* <View style={{flex: 5, flexDirection: 'row',justifyContent: 'space-between'}}>
-        <View style={{width: '50%', height: 50, backgroundColor: 'powderblue'}} />
-        <View style={{width: '50%', height: 50, backgroundColor: 'skyblue'}} />
-      </View> */}
-      
-      </KeyboardAvoidingView>
+          <View style={{width: '50%', height: 50, backgroundColor: 'powderblue'}} />
+          <View style={{width: '50%', height: 50, backgroundColor: 'skyblue'}} />
+          </View> */}
+        </View>
+   </KeyboardAvoidingView>
+
     </>
   );
 }
@@ -159,7 +170,6 @@ const styles =StyleSheet.create({
     borderWidth: 1,
   },
   containerbutton: {
-    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },

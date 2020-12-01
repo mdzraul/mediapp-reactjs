@@ -4,7 +4,7 @@
  import {DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 // /// COMPONENTS
  import Auth from './src/screens/acount/Auth'
-//probando git
+
 /// THEME
 const theme = {
   ...DefaultTheme,
@@ -33,6 +33,7 @@ export default function App() {
 
   return (
     <>
+    
       <PaperProvider theme={theme}>
         <StatusBar
           barStyle="light-content"
@@ -55,7 +56,8 @@ const styles = StyleSheet.create({
   // },
     container: {
      backgroundColor: colors.WHITE_COLOR,
-     height:'100%'
+     height:'100%',
+     
    },
 
 });
