@@ -95,9 +95,11 @@ const callwspostlogin = (params) => {
         keyboardVerticalOffset={13} //Desplazamiento vertical del teclado
         behavior={'position'}> */}
       <KeyboardAvoidingView
+        style={{flexstart: 1}}
         behavior="position"
-        keyboardVerticalOffset={keyboardVerticalOffset}>
-        <View style={styles.container}>
+        keyboardVerticalOffset={50} //Modificacion extra
+     // keyboardVerticalOffset={keyboardVerticalOffset}
+      >
           <TextInput style={styles.TextInput}
             label="Correo"
             onChangeText={(text) => {
@@ -139,7 +141,7 @@ const callwspostlogin = (params) => {
         <View style={{width: '50%', height: 50, backgroundColor: 'powderblue'}} />
         <View style={{width: '50%', height: 50, backgroundColor: 'skyblue'}} />
       </View> */}
-        </View>
+      
       </KeyboardAvoidingView>
     </>
   );
