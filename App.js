@@ -4,7 +4,8 @@
  import {DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 // /// COMPONENTS
  import Auth from './src/screens/acount/Auth'
-
+ import Register from './src/screens/acount/RegisterForm'
+import RegisterForm from './src/screens/acount/RegisterForm';
 /// THEME
 const theme = {
   ...DefaultTheme,
@@ -33,7 +34,7 @@ export default function App() {
 
   return (
     <>
-    
+    {
       <PaperProvider theme={theme}>
         <StatusBar
           barStyle="light-content"
@@ -41,8 +42,10 @@ export default function App() {
         />
         <View style={styles.container}>
           {user ? <Text> Estas logueado</Text> : <Auth />}
+          {/*<RegisterForm/>*/}
         </View>
-      </PaperProvider>
+    </PaperProvider>}
+    
     </>
   );
 }

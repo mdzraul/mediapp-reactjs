@@ -13,6 +13,9 @@ import helper from '../../utils/HelperMethods'
 import service from '../../utils/ServiceURL'
 import getParams from '../../utils/ServiceParams'
 import CustomButton from '../../components/ButtonPrimaryColor';
+import GradientButton from '../../components/GradientButton';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';//Images FontAwesome
+import colors from '../../utils/colors';
 
 import AES from '../../utils/AES'
 //import Circle from './Circle';
@@ -105,6 +108,19 @@ const callwspostlogin = (params) => {
 
 
         <View style={styles.container}>
+
+         <FontAwesome 
+           style={{
+           position: 'absolute',
+           top: 35,
+          right: 300,
+          color:'#4682B4',
+         }}
+          name="envelope"
+          color={colors.text}
+          size={15}
+         />
+
           <TextInput style={styles.TextInput}
             label="Correo"
             onChangeText={(text) => {
@@ -123,6 +139,18 @@ const callwspostlogin = (params) => {
               Email invalido , verifica tu email
             </HelperText>
           ) : null}
+           
+           <FontAwesome 
+           style={{
+           position: 'absolute',
+           color:'#4682B4',
+           top: 120,
+          right: 300,
+         }}
+          name="lock"
+          color={colors.text}
+          size={20}
+         />
 
           <TextInput
             label="Contraseña"
@@ -165,8 +193,11 @@ const styles =StyleSheet.create({
   },
   TextInput:{
     margin:10,
-    borderColor: 'white', 
-    backgroundColor:'white', 
+    paddingLeft: 20,
+    borderColor: 'transparent', 
+    backgroundColor:'transparent', 
+   // borderColor: 'white', 
+   // backgroundColor:'white', 
     borderWidth: 1,
   },
   containerbutton: {
