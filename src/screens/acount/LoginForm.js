@@ -24,6 +24,7 @@ import AES from '../../utils/AES'
 //import Square from './Square';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
+
 export default function LoginForm (props){
 
 const [userlogin, setuserlogin] = useState(false)
@@ -97,6 +98,10 @@ const callwspostlogin = (params) => {
         style={{flexstart: 1}}
         keyboardVerticalOffset={13} //Desplazamiento vertical del teclado
         behavior={'padding'}>*/ }
+
+       
+
+
     <KeyboardAvoidingView
         style={{flexstart: 1}}
         behavior="position"

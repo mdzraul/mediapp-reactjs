@@ -56,8 +56,8 @@ var styles = StyleSheet.create({
   linearGradient: {
     flex: 1,
     padding:25,
-    paddingLeft: 45,  // Relleno izquierdo  boton 
-    paddingRight: 45, // Relleno derecho boton
+    paddingLeft: 40,  // Relleno izquierdo  boton 
+    paddingRight: 40, // Relleno derecho boton
     borderRadius: 50,
     height: 40,
     justifyContent: 'center',

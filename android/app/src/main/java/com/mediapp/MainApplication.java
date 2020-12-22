@@ -12,6 +12,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import com.mediapp.EncryptManager;
 
+
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost =
@@ -79,4 +80,8 @@ public class MainApplication extends Application implements ReactApplication {
       }
     }
   }
+
+ 
+
+
 }

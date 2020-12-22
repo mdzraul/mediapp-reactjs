@@ -1,11 +1,15 @@
  import React, { useState, useEffect } from 'react';
- import {StyleSheet,StatusBar,SafeAreaView, View} from 'react-native'
+ import {StyleSheet,StatusBar,SafeAreaView, View,Button} from 'react-native'
  import colors from './src/utils/colors'
  import {DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 // /// COMPONENTS
- import Auth from './src/screens/acount/Auth'
- import Register from './src/screens/acount/RegisterForm'
+ import Auth from './src/screens/acount/Auth';
 import RegisterForm from './src/screens/acount/RegisterForm';
+import NavigationDrawer from './src/navigation/nav';
+import SlidingView from 'rn-sliding-view';
+//npm install rn-sliding-view --save   //reciente 
+
+
 /// THEME
 const theme = {
   ...DefaultTheme,
@@ -19,7 +23,7 @@ const theme = {
 
 export default function App() {
   const [user, setuser] = useState(null);
-
+  
   useEffect(() => {
     return () => {};
   }, []);
@@ -32,6 +36,8 @@ export default function App() {
 
   //if (user === undefined) return null
 
+
+
   return (
     <>
     {
@@ -40,9 +46,11 @@ export default function App() {
           barStyle="light-content"
           backgroundColor={colors.PRIMARY_COLOR}
         />
+   
         <View style={styles.container}>
-          {user ? <Text> Estas logueado</Text> : <Auth />}
+          {/*user ? <Text> Estas logueado</Text> : <Auth />*/}
           {/*<RegisterForm/>*/}
+          {<NavigationDrawer/>}  
         </View>
     </PaperProvider>}
     
