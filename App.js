@@ -4,8 +4,11 @@
  import {DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 // /// COMPONENTS
  import Auth from './src/screens/acount/Auth';
-import RegisterForm from './src/screens/acount/RegisterForm';
-import NavigationDrawer from './src/navigation/nav';
+import RegisterForm from './src/screens/acount/RegisterForm';//provisional
+import NavigationDrawer from './src/navigation/nav';//provisional
+import Especialidad from './src/screens/Especialidad';//provisional
+import Slider from './src/navigation/Slider'; //provisional
+import Permission from './src/navigation/Permissions';//provisional
 import SlidingView from 'rn-sliding-view';
 //npm install rn-sliding-view --save   //reciente 
 
@@ -48,9 +51,12 @@ export default function App() {
         />
    
         <View style={styles.container}>
-          {/*user ? <Text> Estas logueado</Text> : <Auth />*/}
+          {/* {user ? <Text> Estas logueado</Text> : <Auth />} */}
           {/*<RegisterForm/>*/}
-          {<NavigationDrawer/>}  
+          {/* {<NavigationDrawer/>} */}
+          {/* { <Especialidad/> } */}
+          {<Slider/>}
+          {/* {<Permission/>} */}
         </View>
     </PaperProvider>}
     

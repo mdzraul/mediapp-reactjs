@@ -19,6 +19,7 @@
     "crypto-js": "^3.3.0",
     "react": "16.13.1",
     "react-native": "0.63.2",
+    "react-native-app-intro-slider": "^4.0.4",
     "react-native-axios": "^0.17.1",
     "react-native-calendario": "^2.1.1",
     "react-native-device-angles": "^0.1.1",
