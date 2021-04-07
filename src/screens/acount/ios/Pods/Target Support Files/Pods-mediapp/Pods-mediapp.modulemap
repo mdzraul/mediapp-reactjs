@@ -1,0 +1,6 @@
+module Pods_mediapp {
+  umbrella header "Pods-mediapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

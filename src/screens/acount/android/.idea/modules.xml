@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="mediapp/app" />
+      <module fileurl="file://$PROJECT_DIR$/mediapp.iml" filepath="$PROJECT_DIR$/mediapp.iml" group="mediapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-224388522/mediapp-react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-224388522/mediapp-react-native-vector-icons.iml" group="mediapp/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/135821111/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/135821111/react-native-community_masked-view.iml" group="mediapp/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/680586624/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/680586624/react-native-gesture-handler.iml" group="mediapp/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1300537746/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/1300537746/react-native-linear-gradient.iml" group="mediapp/react-native-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/443891868/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/443891868/react-native-reanimated.iml" group="mediapp/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1860085225/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1860085225/react-native-safe-area-context.iml" group="mediapp/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1555323583/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1555323583/react-native-screens.iml" group="mediapp/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-svg/android/react-native-svg.iml" group="mediapp/react-native-svg" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>
